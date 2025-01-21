@@ -10,7 +10,7 @@ k8sSettings:
   deploymentStrategy: recreate
   imagePullPolicy: IfNotPresent
 envVars:
-  - id: aaa9ff13-9c40-4eee-bcf7-2e4607fab396
+  - id: dfcafc1a-1908-4b0a-aaba-c93c43a4371a
     name: TestKey
     data:
       type: PLAINTEXT
