@@ -9,6 +9,13 @@ k8sSettings:
   replicaCount: 1
   deploymentStrategy: recreate
   imagePullPolicy: IfNotPresent
-envVars: []
+envVars:
+  - id: 8c6dc7c3-a0a1-44d1-8b37-d9a96c44eedd
+    name: TestKey
+    data:
+      type: PLAINTEXT
+      value: TestValue
+    value: TestValue
+    type: PLAINTEXT
 ports: []
 
